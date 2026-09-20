@@ -1,0 +1,7 @@
+@keyframes firefly {0%,100%{transform:translate(0,0);opacity:.2}50%{transform:translate(12px,-18px);opacity:1}}
+@keyframes fall {0%{transform:translateY(-40px) rotate(0deg)}100%{transform:translateY(110vh) rotate(360deg)}}
+@keyframes float {0%,100%{transform:translate(0,0) rotate(-5deg)}50%{transform:translate(-12px,-15px) rotate(8deg)}}
+@keyframes bob {0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+@keyframes swing {0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2.5deg)}}
+@keyframes confetti {0%{transform:translateY(0) rotate(0);opacity:0}10%{opacity:1}100%{transform:translateY(110vh) rotate(680deg);opacity:.7}}
+@media (prefers-reduced-motion:reduce) { *,*::before,*::after {animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important} }

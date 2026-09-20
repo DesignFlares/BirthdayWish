@@ -1,0 +1,17 @@
+@media (max-width:900px){
+  .nav-links{display:none}.menu-button{display:grid;place-items:center}.navbar.open .nav-links{display:flex;position:absolute;top:72px;left:0;right:0;padding:18px 5vw 25px;background:rgba(16,42,34,.96);flex-direction:column;gap:17px}
+  .people-collage{grid-template-columns:repeat(2,1fr);gap:28px 18px}
+  .memory-grid{grid-template-columns:repeat(2,1fr)}.memory-grid .photo-card:nth-child(n){grid-column:auto;transform:rotate(var(--rotation))}
+  .forest-scene{min-height:500px}.hanging-photo{width:150px}.hanging-0{left:15%}.hanging-1{left:39%}.hanging-2{left:63%}
+}
+@media (max-width:620px){
+  .section,.section-paper{padding:85px 5vw}.hero h1{font-size:clamp(3.5rem,18vw,5.5rem)}.hero-scribble{font-size:1rem;right:4%;bottom:4%}
+  .hero-trees{font-size:8rem}.tree-left-small,.tree-right-small{font-size:5rem}.deer{font-size:3.5rem;left:4%}.gift{right:7%}.cake{right:22%}
+  .people-collage{grid-template-columns:1fr;max-width:380px}.people-collage .photo-card:nth-child(even){margin-top:-10px}
+  .memory-grid{grid-template-columns:1fr;max-width:360px}.memory-grid .photo-card:nth-child(n){grid-column:auto}
+  .forest-scene{min-height:590px}.scene-tree{font-size:8rem}.scene-animal{left:44%;font-size:3.5rem}
+  .hanging-photo{width:125px}.hanging-0{left:7%;top:23%}.hanging-1{left:35%;top:16%}.hanging-2{left:63%;top:28%}.string-one{left:10%;width:80%}
+  .letter-paper{padding:48px 25px}.letter-paper h2{font-size:2.5rem}.night-moon{right:5%;font-size:5rem}.final-trees{font-size:7rem}
+  .wish-list{gap:4px}.wish-list span,.wish-list strong{font-size:1.15rem;padding:5px 8px}
+}
+@media (max-width:390px){.hanging-photo{width:108px}.hanging-0{left:4%}.hanging-1{left:35%}.hanging-2{left:66%}.scene-animal{font-size:3rem}}
