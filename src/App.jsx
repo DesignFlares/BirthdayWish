@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <Navbar name={birthdayData.name} />
+      
       <Fireflies count={24} />
       <FallingLeaves count={12} />
 
