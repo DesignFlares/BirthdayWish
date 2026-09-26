@@ -27,7 +27,7 @@ export default function Hero({ data }) {
         <button className="celebrate-button" onClick={scrollNext}>LET'S CELEBRATE <Sparkles size={18}/></button>
         <button className="scroll-hint" onClick={scrollNext} aria-label="Scroll to continue"><ArrowDown /></button>
       </div>
-      <div className="hero-scribble">apparently, this is a birthday website now ✍️</div>
+
     </section>
   );
 }
