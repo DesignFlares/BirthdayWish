@@ -22,7 +22,7 @@ export default function Hero({ data }) {
 
       <div className="hero-content">
          <p className="hero-kicker">HEY {data.name}...</p>
-        <h1>IT'S YOUR <em>DAY!</em> <span>🎂</span></h1>
+        <h1>IT'S YOUR <em>DAY!</em> <span style={{ fontSize: "5rem" }}>🎂</span></h1>
         <p className="hero-subtitle">Welcome to your very own little corner of the internet.</p>
         <button className="celebrate-button" onClick={scrollNext}>LET'S CELEBRATE <Sparkles size={18}/></button>
         <button className="scroll-hint" onClick={scrollNext} aria-label="Scroll to continue"><ArrowDown /></button>
